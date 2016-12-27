@@ -2,6 +2,8 @@
 
 > 主要技术栈 React, Redux, Bootstrap, Django(Python)
 
+!(Screenshot)[public/screenshot.png]
+
 ## 如何运行
 
 - 运行 `npm install` 准备环境 
