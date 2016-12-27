@@ -2,7 +2,7 @@
 
 > 主要技术栈 React, Redux, Bootstrap, Django(Python)
 
-!(Screenshot)[https://github.com/happydagui/react_plus_django/blob/master/public/screenshot.png]
+![Screenshot](public/screenshot.png)
 
 ## 如何运行
 
