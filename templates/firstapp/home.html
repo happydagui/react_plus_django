@@ -11,9 +11,46 @@
 	<script src="/media/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
 	<!-- https://github.com/bassjobsen/Bootstrap-3-Typeahead -->
 	<!-- <script src="/media/bootstrap3-typeahead.min.js"></script> -->
+	<style>
+	.o_web_client {
+		display: flex;
+		display: -ms-flexbox;
+		flex-flow: column nowrap;
+		overflow: hidden;
+		align-items: stretch;
+		height: 100%;
+		width: 100%;
+		position: fixed; /* it is required */
+	}
+	.navbar {
+		min-height: 0;
+	}
+	.navbar-nav > li > a {
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.o_form_view {
+		-moz-box-shadow:1px 1px 2px #333333; -webkit-box-shadow:1px 1px 2px #333333; box-shadow:1px 1px 2px #333333;
+		padding: 16px 0;
+		margin: 15px;
+	}
+	.o_form_sheet {
+		min-width: 650px;
+		max-width: 860px;
+		min-height: 330px;
+		padding: 16px;
+		margin: 0 auto;
+		background: white;
+	}
+	.kanban {
+		border: 1px solid #ccc;
+		margin: 5px;
+	}
+	.active {color: red;}
+	</style>
 </head>
-<body>
-	<div class="" id="app">
+<body class="o_web_client">
+	<div class="" style="display:flex;flex:1;" id="app">
 	</div>
 
 	<script src="/media/bundle.js"></script>
